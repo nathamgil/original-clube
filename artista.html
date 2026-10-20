@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipe · Original Clube</title>
+<meta name="description" content="Tatuadores e barbeiros do Original Clube, em Salvador: portfólio, estilos e pedido direto com cada um.">
+<meta name="theme-color" content="#0D0614">
+<link rel="icon" href="fotos/logo.jpg">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Equipe · Original Clube">
+<meta property="og:description" content="Tatuadores e barbeiros do Original Clube, em Salvador: portfólio, estilos e pedido direto com cada um.">
+<meta property="og:image" content="fotos/lb-1.jpg">
+<meta property="og:locale" content="pt_BR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Manrope:wght@500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css?v=20261020132258">
+</head>
+<body class="pg-artista">
+
+<div id="faixa-demo" class="faixa-demo" hidden>
+  <b>Versão de demonstração.</b> O pedido funciona de verdade, mas fica guardado só neste aparelho até ligarmos o banco de dados.
+</div>
+
+<header class="topo">
+  <div class="wrap topo-in">
+    <a class="marca" href="index.html" aria-label="Original Clube, início">
+      <img src="fotos/logo.jpg" alt="" width="44" height="44">
+      <span><b>Original <em>Clube</em></b><small>Barbearia · Tatuagem</small></span>
+    </a>
+    <nav class="menu" aria-label="Seções">
+      <a href="index.html#tatuagem">Tatuagem</a>
+      <a href="index.html#barbearia">Barbearia</a>
+      <a href="processo.html">Da ideia à pele</a>
+      <a href="index.html#cursos">Cursos</a>
+      <a href="index.html#meu-horario">Meu pedido</a>
+    </nav>
+    <a class="btn btn-cheio mini" href="index.html#agendar">Agendar</a>
+  </div>
+</header>
+
+<main>
+  <section class="secao" id="art-nao-achei" hidden>
+    <div class="wrap">
+      <p class="olho">Equipe do clube</p>
+      <h2>Não achei esse nome</h2>
+      <p class="sub">Esta é a equipe:</p>
+      <div class="equipe" id="lista-equipe"></div>
+    </div>
+  </section>
+
+  <div id="artista-pagina" hidden>
+    <section class="art-capa">
+      <div class="art-fundo" id="art-fundo" aria-hidden="true"></div>
+      <div class="wrap art-capa-in">
+        <div class="art-foto" id="art-foto"></div>
+        <div class="art-txt">
+          <a class="voltar-equipe" href="index.html#tatuagem">← Toda a equipe</a>
+          <p class="olho" id="art-oficio"></p>
+          <h1 id="art-nome"></h1>
+          <a class="arroba" id="art-arroba" target="_blank" rel="noopener"></a>
+          <p class="linha" id="art-linha"></p>
+          <p class="art-destaque" id="art-destaque" hidden></p>
+          <div class="estilos" id="art-estilos" aria-label="Estilos"></div>
+          <div class="acoes">
+            <a class="btn btn-cheio" id="art-pedir" href="index.html#agendar">Pedir orçamento</a>
+            <span id="art-extras" style="display:contents"></span>
+            <button class="btn btn-linha" id="art-compartilhar" type="button">Compartilhar página</button>
+          </div>
+          <p class="compartilhado" id="art-compartilhado" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="art-port">
+      <div class="wrap">
+        <p class="olho">Portfólio</p>
+        <h2 id="art-port-titulo">Portfólio</h2>
+        <p class="sub" id="art-port-nota"></p>
+        <div class="mural mural-grande" id="art-portfolio"></div>
+        <div class="sem-fotos" id="art-sem-fotos" hidden>
+          <b>Portfólio chegando</b>
+          <p></p>
+        </div>
+        <div class="acoes">
+          <a class="btn btn-cheio" id="art-pedir-2" href="index.html#agendar">Pedir orçamento</a>
+          <a class="btn btn-linha" id="art-mais" target="_blank" rel="noopener">Ver mais no Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-flashes" id="art-flashes-sec" hidden>
+      <div class="wrap">
+        <p class="olho">Pronto para tatuar</p>
+        <h2>Flashes disponíveis</h2>
+        <p class="sub">Desenho já feito, esperando a pele certa. Escolha um e o pedido já vai com ele.</p>
+        <div id="art-flashes"></div>
+      </div>
+    </section>
+
+    <section class="secao secao-lilas" id="art-sobre">
+      <div class="wrap sobre-art">
+        <div>
+          <p class="olho">Ficha</p>
+          <h2>Quem é</h2>
+          <ul class="art-bio" id="art-bio"></ul>
+        </div>
+        <div class="art-processo">
+          <b>Como funciona o pedido</b>
+          <ol>
+            <li>Você escolhe o tipo de atendimento e a data.</li>
+            <li>Conta a ideia e manda referências (na tatuagem).</li>
+            <li>O resumo sai pronto para mandar no WhatsApp.</li>
+          </ol>
+          <a class="btn btn-linha mini" href="processo.html">Da ideia à pele: o processo completo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="wrap">
+        <p class="olho">Equipe do clube</p>
+        <h2>Também no clube</h2>
+        <div class="equipe" id="lista-outros"></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <div class="rodape-in">
+      <div class="rodape-marca">
+        <span class="wordmark wordmark-p"><span class="wm-script">Original</span><span class="wm-bloco">Clube</span></span>
+        <p>Altas doses de autoestima ⚠</p>
+        <p>Barbearia e tatuagem · Salvador — BA</p>
+      </div>
+      <div>
+        <b class="rodape-titulo">Equipe</b>
+        <ul class="rodape-links">
+          <li><a href="artista.html?a=lb">LB Tattoo · tatuagem</a></li>
+          <li><a href="artista.html?a=lelis">Rodrigo Lelis · tatuagem</a></li>
+          <li><a href="artista.html?a=lucas">Lucas Marques · barbearia</a></li>
+          <li><a href="artista.html?a=agatha">Agatha · barbearia</a></li>
+        </ul>
+      </div>
+      <div>
+        <b class="rodape-titulo">Navegar</b>
+        <ul class="rodape-links">
+          <li><a href="index.html#agendar">Pedir orçamento ou horário</a></li>
+          <li><a href="processo.html">Da ideia à pele</a></li>
+          <li><a href="index.html#meu-horario">Consultar ou cancelar</a></li>
+          <li><a href="https://www.instagram.com/originalclube/" target="_blank" rel="noopener">@originalclube</a></li>
+          <li><a href="admin.html">Área do clube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="creditos">
+      <span>© <span id="ano"></span> Original Clube</span>
+      <span>Guardamos seu nome, WhatsApp e a descrição do pedido só para organizar a agenda. Para apagar seus dados, é só pedir no Instagram.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="flutua" id="art-flutua" href="index.html#agendar">Pedir orçamento</a>
+
+<script src="assets/config.js?v=20261020132258"></script>
+<script src="assets/site.js?v=20261020132258"></script>
+</body>
+</html>

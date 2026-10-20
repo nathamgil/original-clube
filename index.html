@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Original Clube · Barbearia e tatuagem em Salvador</title>
+<meta name="description" content="Original Clube: barbearia e tatuagem em Salvador. Tatuagem por orçamento com LB Tattoo e Rodrigo Lelis, barbearia com hora marcada com Lucas Marques e Agatha. Altas doses de autoestima.">
+<meta name="theme-color" content="#0D0614">
+<link rel="icon" href="fotos/logo.jpg">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Original Clube · Barbearia e tatuagem">
+<meta property="og:description" content="Altas doses de autoestima. Peça seu orçamento de tatuagem ou marque o corte.">
+<meta property="og:image" content="fotos/lb-1.jpg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Manrope:wght@500;600;700;800&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css?v=20261020132258">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":["BarberShop","TattooParlor"],
+  "name":"Original Clube",
+  "image":"fotos/logo.jpg",
+  "slogan":"Altas doses de autoestima",
+  "address":{"@type":"PostalAddress","addressLocality":"Salvador","addressRegion":"BA","addressCountry":"BR"},
+  "sameAs":["https://www.instagram.com/originalclube/"]
+}
+</script>
+</head>
+<body>
+
+<div id="faixa-demo" class="faixa-demo" hidden>
+  <b>Versão de demonstração.</b> O pedido funciona de verdade aqui, mas fica guardado só neste aparelho até ligarmos o banco de dados.
+</div>
+
+<header class="topo">
+  <div class="wrap topo-in">
+    <a class="marca" href="index.html" aria-label="Original Clube, início">
+      <img src="fotos/logo.jpg" alt="" width="44" height="44">
+      <span><b>Original <em>Clube</em></b><small>Barbearia · Tatuagem</small></span>
+    </a>
+    <nav class="menu" aria-label="Seções">
+      <a href="#tatuagem">Tatuagem</a>
+      <a href="#barbearia">Barbearia</a>
+      <a href="processo.html">Da ideia à pele</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#meu-horario">Meu pedido</a>
+    </nav>
+    <a class="btn btn-cheio mini" href="#agendar">Agendar</a>
+  </div>
+</header>
+
+<main>
+<section class="capa">
+  <div class="raios" aria-hidden="true"></div>
+  <div class="wrap capa-in">
+    <div class="capa-txt">
+      <p class="aviso-dose"><span aria-hidden="true">⚠</span> Atenção: altas doses de autoestima</p>
+      <h1 class="wordmark"><span class="wm-script">Original</span><span class="wm-bloco">Clube</span></h1>
+      <p class="lead">Barbearia e tatuagem no mesmo clube, em Salvador. Sai de cabelo na régua, barba desenhada ou com uma peça nova na pele.</p>
+      <div class="portas">
+        <a class="porta porta-tattoo" href="#tatuagem">
+          <small>Porta 01</small><b>Tatuagem</b><span>Orçamento com LB ou Lelis</span>
+        </a>
+        <a class="porta porta-barba" href="#barbearia">
+          <small>Porta 02</small><b>Barbearia</b><span>Horário com Lucas ou Agatha</span>
+        </a>
+      </div>
+    </div>
+    <div class="capa-fotos" aria-hidden="true">
+      <img class="cf cf-1" src="fotos/lb-1.jpg" alt="" width="300" height="400">
+      <img class="cf cf-2" src="fotos/barba-3.jpg" alt="" width="220" height="390">
+      <img class="cf cf-3" src="fotos/lelis-2.jpg" alt="" width="240" height="320">
+      <span class="cf-selo">Membro<br><b>Original</b></span>
+    </div>
+  </div>
+</section>
+
+<div class="fita-dose" aria-hidden="true">
+  <div>
+    <span>Altas doses de autoestima</span><i>⚠</i><span>Barbearia</span><i>⚠</i><span>Tatuagem</span><i>⚠</i><span>Realismo preto e cinza</span><i>⚠</i><span>Fine line</span><i>⚠</i><span>Blackwork</span><i>⚠</i><span>Degradê</span><i>⚠</i><span>Barba</span><i>⚠</i><span>Salvador</span><i>⚠</i>
+    <span>Altas doses de autoestima</span><i>⚠</i><span>Barbearia</span><i>⚠</i><span>Tatuagem</span><i>⚠</i><span>Realismo preto e cinza</span><i>⚠</i><span>Fine line</span><i>⚠</i><span>Blackwork</span><i>⚠</i><span>Degradê</span><i>⚠</i><span>Barba</span><i>⚠</i><span>Salvador</span><i>⚠</i>
+  </div>
+</div>
+
+<!-- ================= TATUAGEM ================= -->
+<section class="secao" id="tatuagem">
+  <div class="wrap">
+    <div class="cab-secao">
+      <p class="olho">Porta 01 · Tatuagem</p>
+      <h2>Tatuagem por orçamento, <em>do jeito certo</em></h2>
+      <p class="sub">Dois tatuadores, cada um com a sua página, portfólio e WhatsApp. Escolha com quem, conte a ideia e mande as referências: o valor sai depois da conversa.</p>
+    </div>
+    <div class="equipe equipe-tattoo" id="lista-tattoo"></div>
+
+    <div class="cab-secao cab-meio">
+      <p class="olho">Portfólio</p>
+      <h3 class="h-meio">Saiu daqui</h3>
+      <p class="sub">Peças do LB e do Lelis. Toque numa foto para ampliar e passar para a próxima.</p>
+    </div>
+    <div class="mural" data-mural data-max="8"></div>
+
+    <div class="faixa-cta">
+      <div>
+        <b>Primeira tattoo? Projeto grande?</b>
+        <span>Veja como funciona da ideia à pele: referência, desenho, sessão e cicatrização.</span>
+      </div>
+      <a class="btn btn-linha" href="processo.html">Ver o processo</a>
+    </div>
+
+    <h3 class="h-meio">Tipos de sessão</h3>
+    <p class="sub">Tudo sob orçamento. O tipo de sessão só reserva o tempo certo na agenda.</p>
+    <div class="tipos" id="tipos" data-tipos data-categoria="Tatuagem"><div class="carregando">Carregando…</div></div>
+  </div>
+</section>
+
+<!-- ================= BARBEARIA ================= -->
+<section class="secao secao-lilas" id="barbearia">
+  <div class="wrap">
+    <div class="cab-secao">
+      <p class="olho">Porta 02 · Barbearia</p>
+      <h2>Cadeira marcada, <em>sem fila</em></h2>
+      <p class="sub">Escolha quem vai cortar, o serviço e o horário. Sem cadastro: no fim, você recebe um código para consultar ou cancelar.</p>
+    </div>
+    <div class="equipe equipe-barba" id="lista-barbearia"></div>
+
+    <h3 class="h-meio">Serviços</h3>
+    <div class="tipos" id="tipos-barbearia" data-tipos data-categoria="Barbearia"><div class="carregando">Carregando…</div></div>
+    <p class="nota-maapp">Prefere o app de sempre? A barbearia também agenda pelo <a href="https://online.maapp.com.br/OriginalClube" target="_blank" rel="noopener">link do maapp</a>.</p>
+
+    <h3 class="h-meio">No clube</h3>
+    <div class="mural mural-barba" id="galeria-barbearia"></div>
+  </div>
+</section>
+
+<!-- ================= PROCESSO (resumo) ================= -->
+<section class="secao" id="processo">
+  <div class="wrap">
+    <div class="cab-secao">
+      <p class="olho">Da ideia à pele</p>
+      <h2>Cinco doses até a tattoo pronta</h2>
+    </div>
+    <ol class="doses">
+      <li><b>01</b><h3>Ideia e referência</h3><p>Você conta o que quer, o local e manda imagens.</p></li>
+      <li><b>02</b><h3>Desenho</h3><p>O tatuador transforma a ideia em arte para a sua pele.</p></li>
+      <li><b>03</b><h3>Aprovação</h3><p>Ajustes, valor e data fechados antes de tatuar.</p></li>
+      <li><b>04</b><h3>Sessão</h3><p>No dia, com tempo reservado só para a sua peça.</p></li>
+      <li><b>05</b><h3>Cicatrização</h3><p>Os cuidados que fazem a tattoo durar.</p></li>
+    </ol>
+    <div class="acoes centro"><a class="btn btn-linha" href="processo.html">Ver o processo completo, FAQ e cuidados</a></div>
+  </div>
+</section>
+
+<!-- ================= CURSOS ================= -->
+<section class="secao secao-escura" id="cursos">
+  <div class="wrap cursos">
+    <div class="cursos-cartaz">
+      <img src="fotos/cartaz-cursos.jpg" alt="Cartaz do Original Clube: cursos, workshop e mentorias" width="512" height="640" loading="lazy">
+    </div>
+    <div>
+      <p class="olho">Também é escola</p>
+      <h2>Cursos, workshop e <em>mentorias</em></h2>
+      <p class="sub">O clube divulga cursos para quem quer viver da cadeira e da máquina. No cartaz:</p>
+      <ul class="lista-check">
+        <li>Técnicas de fade e tesoura</li>
+        <li>Atendimento ao público</li>
+        <li>Prospecção de clientes</li>
+        <li>Foto e vídeo</li>
+        <li>Empreendedorismo</li>
+      </ul>
+      <p class="sub">Na tatuagem, o LB dá mentorias e o Lelis dá workshop.</p>
+      <div class="acoes">
+        <a class="btn btn-cheio" href="https://ig.me/m/originalclube" target="_blank" rel="noopener">Perguntar sobre as turmas</a>
+        <a class="btn btn-linha" href="artista.html?a=lb">Mentoria com o LB</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PEDIDO ================= -->
+<section class="secao agendar" id="agendar">
+  <div class="wrap">
+    <div class="cab-secao">
+      <p class="olho">Agenda do clube</p>
+      <h2>Pedir orçamento ou marcar horário</h2>
+      <p class="sub">Tatuagem: conte a ideia e a data, o valor vem na conversa. Barbearia: escolha o horário e pronto.</p>
+    </div>
+    <div class="painel" id="agendar-app">
+
+      <div class="passos" id="passos">
+        <div class="passo" data-estado="atual">1 · Com quem</div>
+        <div class="passo" data-estado="aberto">2 · Serviço</div>
+        <div class="passo" data-estado="aberto">3 · Projeto</div>
+        <div class="passo" data-estado="aberto">4 · Dia</div>
+        <div class="passo" data-estado="aberto">5 · Seus dados</div>
+      </div>
+
+      <div class="escolhas" id="escolhas" hidden></div>
+
+      <!-- 1 -->
+      <div class="etapa" data-etapa="1" data-ativa>
+        <h3>Com quem vai ser?</h3>
+        <p class="dica">Tatuagem é com o LB ou com o Lelis. Barbearia é com o Lucas ou com a Agatha.</p>
+        <div class="lista-barbeiros" id="lista-barbeiros"></div>
+      </div>
+
+      <!-- 2 -->
+      <div class="etapa" data-etapa="2">
+        <h3>O que você quer fazer?</h3>
+        <p class="dica">Tatuagem é sob orçamento: na dúvida, comece pela conversa de orçamento. Na barbearia, o preço é confirmado no clube.</p>
+        <div id="lista-servicos"></div>
+        <div class="acoes"><button class="voltar" type="button" data-voltar="1">← Trocar com quem</button></div>
+      </div>
+
+      <!-- 3 -->
+      <div class="etapa" data-etapa="3">
+        <h3>Seu projeto</h3>
+        <p class="dica">Quanto mais detalhe, mais certeiro vem o orçamento.</p>
+
+        <div class="projeto" id="projeto">
+          <div class="campos">
+            <div id="pj-estilo-box">
+              <span class="rotulo-campo">Estilo</span>
+              <div class="chips" id="pj-estilo" role="group" aria-label="Estilo"></div>
+            </div>
+            <div class="campos-2">
+              <div class="campo">
+                <label for="pj-local">Local do corpo</label>
+                <select id="pj-local">
+                  <option value="">Escolha</option>
+                  <option>Antebraço</option><option>Braço</option><option>Ombro</option>
+                  <option>Mão / dedos</option><option>Costas</option><option>Costela</option>
+                  <option>Peito</option><option>Barriga</option><option>Quadril</option><option>Coxa</option>
+                  <option>Perna / panturrilha</option><option>Pé / tornozelo</option>
+                  <option>Pescoço / nuca</option><option>Outro</option>
+                </select>
+              </div>
+              <div class="campo">
+                <label for="pj-tamanho">Tamanho aproximado</label>
+                <select id="pj-tamanho">
+                  <option value="">Não sei ainda</option>
+                  <option>Até 5 cm</option><option>5 a 10 cm</option><option>10 a 20 cm</option>
+                  <option>Mais de 20 cm</option><option>Fechamento (braço, perna ou costas)</option>
+                </select>
+              </div>
+            </div>
+            <div class="campo">
+              <label for="pj-ideia">Sua ideia</label>
+              <textarea id="pj-ideia" maxlength="600" placeholder="Ex: leão realista no antebraço em preto e cinza, ou floral fine line descendo pela coluna"></textarea>
+            </div>
+            <div class="campos-2">
+              <div>
+                <span class="rotulo-campo">É sua primeira tattoo?</span>
+                <div class="chips" data-grupo="primeira" data-rotulo="Primeira tattoo"><button type="button" class="chip" aria-pressed="false">Sim</button><button type="button" class="chip" aria-pressed="false">Não</button></div>
+              </div>
+              <div>
+                <span class="rotulo-campo">É cobertura de outra tattoo?</span>
+                <div class="chips" data-grupo="cobertura" data-rotulo="Cobertura"><button type="button" class="chip" aria-pressed="false">Sim</button><button type="button" class="chip" aria-pressed="false">Não</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="msg-projeto"></div>
+        <div class="acoes">
+          <button class="btn btn-cheio" id="pj-continuar" type="button">Escolher o dia →</button>
+          <button class="voltar" type="button" data-voltar="2">← Trocar o serviço</button>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="etapa" data-etapa="4">
+        <h3>Escolha o dia</h3>
+        <p class="dica">O horário marca o começo do atendimento. A confirmação final vem pelo WhatsApp.</p>
+        <div class="fita" id="fita-dias"></div>
+        <p class="titulo-dia" id="titulo-dia"></p>
+        <div id="caixa-horas"></div>
+        <div class="acoes"><button class="voltar" type="button" data-voltar="3">← Voltar</button></div>
+      </div>
+
+      <!-- 5 -->
+      <div class="etapa" data-etapa="5">
+        <h3>Quase lá</h3>
+        <p class="dica">Só falta saber com quem a gente vai falar.</p>
+        <div class="resumo" id="resumo"></div>
+        <form id="form-cliente" novalidate>
+          <div class="campos">
+            <div class="campo">
+              <label for="cli-nome">Seu nome</label>
+              <input id="cli-nome" name="nome" type="text" autocomplete="name" placeholder="Como te chamam" required>
+            </div>
+            <div class="campo">
+              <label for="cli-tel">WhatsApp</label>
+              <input id="cli-tel" name="tel" type="tel" inputmode="numeric" autocomplete="tel" placeholder="(71) 9 0000-0000" required>
+              <p class="ajuda">Para o estúdio falar com você sobre o pedido. Não vai para lista de propaganda.</p>
+            </div>
+            <div class="campo">
+              <label for="cli-obs"><span id="cli-obs-rot">Algo mais</span> <small>(opcional)</small></label>
+              <textarea id="cli-obs" name="obs" maxlength="240" placeholder="Algo mais que a gente precisa saber"></textarea>
+            </div>
+          </div>
+          <div id="msg-form"></div>
+          <div class="acoes">
+            <button class="btn btn-cheio" id="btn-confirmar" type="submit">Enviar pedido</button>
+            <button class="voltar" type="button" data-voltar="4">← Trocar o dia</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- 6 -->
+      <div class="etapa" data-etapa="6">
+        <div class="sucesso">
+          <div class="selo-ok" aria-hidden="true">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+          </div>
+          <h3>Pedido enviado</h3>
+          <p class="com">com <span id="ok-barbeiro"></span></p>
+          <p class="dica" id="ok-linha" style="margin:.4rem 0 1rem"></p>
+          <p class="rotulo-codigo">Seu código</p>
+          <div class="codigo" id="ok-codigo"></div>
+          <p class="expl">
+            O horário fica reservado. Agora mande o resumo: o valor é combinado antes da sessão.
+            Com esse código você consulta ou cancela até 2 horas antes.
+          </p>
+          <div class="acoes">
+            <a class="btn btn-zap" id="ok-zap" target="_blank" rel="noopener">Mandar resumo</a>
+            <button class="btn btn-linha" id="ok-copiar" type="button">Copiar resumo</button>
+            <a class="btn btn-linha" id="ok-ics">Salvar no calendário</a>
+            <button class="btn btn-linha" id="btn-novo" type="button">Fazer outro pedido</button>
+          </div>
+          <p class="copiado" id="ok-copiado" aria-live="polite"></p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= MEU PEDIDO ================= -->
+<section class="secao" id="meu-horario">
+  <div class="wrap dupla">
+    <div>
+      <p class="olho">Já pediu?</p>
+      <h2>Consultar ou cancelar</h2>
+      <p class="sub">Deu imprevisto? Cancele por aqui e o horário volta para a agenda. Pelo site, vale até <b>2 horas antes</b>. Depois disso, chame o clube no Instagram.</p>
+    </div>
+    <div class="cartao">
+      <form id="form-consulta">
+        <div class="campos">
+          <div class="campo">
+            <label for="con-codigo">Código do pedido</label>
+            <input id="con-codigo" type="text" placeholder="Ex: A3F91C" style="text-transform:uppercase" required>
+          </div>
+          <div class="campo">
+            <label for="con-tel">WhatsApp usado</label>
+            <input id="con-tel" type="tel" inputmode="numeric" placeholder="(71) 9 0000-0000" required>
+          </div>
+          <button class="btn btn-cheio btn-bloco" type="submit">Buscar meu pedido</button>
+        </div>
+      </form>
+      <div id="saida-consulta"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VAGA ================= -->
+<section class="secao secao-lilas" id="vaga">
+  <div class="wrap vaga">
+    <img src="fotos/cartaz-vaga.jpg" alt="Cartaz: estamos contratando barbeiro" width="512" height="640" loading="lazy">
+    <div>
+      <p class="olho">Vem pro clube</p>
+      <h2>Estamos contratando <em>barbeiro</em></h2>
+      <p class="sub">O Original Clube abriu vaga para barbeiro. Para saber dos requisitos e mandar seu trabalho, chame no Direct.</p>
+      <div class="acoes"><a class="btn btn-cheio" href="https://ig.me/m/originalclube" target="_blank" rel="noopener">Chamar no Direct</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ONDE ================= -->
+<section class="secao" id="local">
+  <div class="wrap">
+    <div class="cab-secao">
+      <p class="olho">Onde fica</p>
+      <h2>O clube é em Salvador</h2>
+    </div>
+    <div class="infos">
+      <div class="info-item"><b class="rot">Endereço</b><span>Salvador — BA<small>Peça o endereço e o ponto de referência no Instagram.</small></span></div>
+      <div class="info-item"><b class="rot">Atendimento</b><span>Com hora marcada<small>Os horários livres aparecem no pedido.</small></span></div>
+      <div class="info-item"><b class="rot">Instagram</b><a href="https://www.instagram.com/originalclube/" target="_blank" rel="noopener">@originalclube</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <div class="rodape-in">
+      <div class="rodape-marca">
+        <span class="wordmark wordmark-p"><span class="wm-script">Original</span><span class="wm-bloco">Clube</span></span>
+        <p>Altas doses de autoestima ⚠</p>
+        <p>Barbearia e tatuagem · Salvador — BA</p>
+      </div>
+      <div>
+        <b class="rodape-titulo">Equipe</b>
+        <ul class="rodape-links">
+          <li><a href="artista.html?a=lb">LB Tattoo · tatuagem</a></li>
+          <li><a href="artista.html?a=lelis">Rodrigo Lelis · tatuagem</a></li>
+          <li><a href="artista.html?a=lucas">Lucas Marques · barbearia</a></li>
+          <li><a href="artista.html?a=agatha">Agatha · barbearia</a></li>
+        </ul>
+      </div>
+      <div>
+        <b class="rodape-titulo">Navegar</b>
+        <ul class="rodape-links">
+          <li><a href="#agendar">Pedir orçamento ou horário</a></li>
+          <li><a href="processo.html">Da ideia à pele</a></li>
+          <li><a href="#meu-horario">Consultar ou cancelar</a></li>
+          <li><a href="https://www.instagram.com/originalclube/" target="_blank" rel="noopener">@originalclube</a></li>
+          <li><a href="admin.html">Área do clube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="creditos">
+      <span>© <span id="ano"></span> Original Clube</span>
+      <span>Guardamos seu nome, WhatsApp e a descrição do pedido só para organizar a agenda. Para apagar seus dados, é só pedir no Instagram.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="flutua" href="#agendar">Agendar</a>
+
+<script src="assets/config.js?v=20261020132258"></script>
+<script src="assets/demo.js?v=20261020132258"></script>
+<script src="assets/site.js?v=20261020132258"></script>
+<script src="assets/tattoo.js?v=20261020132258"></script>
+<script src="assets/agenda.js?v=20261020132258"></script>
+</body>
+</html>
